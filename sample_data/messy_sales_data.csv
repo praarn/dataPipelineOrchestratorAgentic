@@ -1,0 +1,521 @@
+order_date,region,state,revenue,customer_age
+2024-01-01,Southeast,FL,1051.26,65.1
+2024-01-02,West,CA,1284.93,38.3
+2024-01-03,Midwest,il,1149.56,53.3
+2024-01-04,Southeast,Florida,923.96,27.5
+2024-01-05,Northeast, New York,1179.24,47.4
+2024-01-06,Northeast, New York,1391.29,27.4
+2024-01-07,Northeast, New York,1122.97,32.5
+2024-01-08,West,CA,1299.22,63.0
+2024-01-09,Midwest,IL,1204.92,37.7
+2024-01-10,Midwest,IL,961.12,42.6
+2024-01-11,Northeast, New York,1078.03,50.4
+2024-01-12,West,CA,1241.58,45.9
+2024-01-13,West,CA,1024.82,41.8
+2024-01-14,Northeast,New York,1531.17,44.4
+2024-01-15,Northeast,NY,1109.84,68.8
+2024-01-16,Northeast,NY,1262.59,39.3
+2024-01-17,Northeast,NY,1356.79,42.4
+2024-01-18,Southeast,fl,1066.55,52.6
+2024-01-19,Southeast,Florida,995.49,53.3
+2024-01-20,Northeast,New York,1459.93,54.2
+2024-01-21,Midwest,il,909.86,47.7
+2024-01-22,Northeast, New York,,26.3
+2024-01-23,Northeast,New York,1395.04,59.6
+2024-01-24,Southeast,FL,1157.67,26.2
+2024-01-25,Southeast,Florida,1190.74,43.6
+2024-01-26,Midwest,IL,918.8,30.9
+2024-01-27,Northeast,ny,1160.88,39.2
+2024-01-28,Southeast,FL,1286.15,43.9
+2024-01-29,Southeast,Florida,1147.85,43.9
+2024-01-30,Northeast,New York,1289.23,45.1
+2024-01-31,Midwest,IL,1337.67,59.4
+2024-02-01,Northeast,ny,1425.85,45.4
+2024-02-02,Northeast,ny,1588.89,37.1
+2024-02-03,West,California,1125.63,51.6
+2024-02-04,West,CA,1428.11,54.3
+2024-02-05,West,ca,1385.8,25.3
+2024-02-06,Northeast,New York,1388.66,200.0
+2024-02-07,Northeast,New York,1575.24,48.4
+2024-02-08,Midwest,il,1229.81,
+2024-02-09,Southeast,fl,1341.79,56.5
+2024-02-10,Northeast,ny,1295.26,38.2
+2024-02-11,Southeast,FL,1246.41,41.5
+2024-02-12,Northeast,NY,1605.76,37.9
+2024-02-13,West,California,886.69,40.2
+2024-02-14,Northeast,ny,1276.51,26.8
+2024-02-15,Midwest,il,851.62,22.7
+2024-02-16,Northeast,NY,1420.59,59.1
+2024-02-17,Southeast,fl,1272.13,29.8
+2024-02-18,Southeast,Florida,1393.35,28.1
+2024-02-19,Northeast,NY,1482.61,18.0
+2024-02-20,West,CA,1419.29,32.3
+2024-02-21,Midwest,IL,971.48,24.1
+2024-02-22,West,California,926.49,59.7
+2024-02-23,West,ca,1177.17,52.1
+2024-02-24,Southeast,FL,1246.61,31.7
+2024-02-25,West,California,1187.6,67.0
+2024-02-26,Northeast, New York,1185.88,51.8
+2024-02-27,Northeast,ny,"1,486.13",36.1
+2024-02-28,Northeast,New York,1307.33,18.0
+2024-02-29,Northeast,ny,1606.95,150.0
+2024-03-01,Southeast,Florida,1264.99,23.3
+2024-03-02,Northeast,ny,1372.52,
+2024-03-03,West,CA,1139.92,52.3
+2024-03-04,Southeast,fl,1061.62,69.3
+2024-03-05,Northeast,New York,1514.6,56.6
+2024-03-06,Southeast,Florida,1370.77,46.8
+2024-03-07,Northeast,ny,1383.14,47.1
+2024-03-08,West,CA,1310.11,50.2
+2024-03-09,Northeast,NY,,49.1
+2024-03-10,West,ca,1122.57,43.4
+2024-03-11,Midwest,il,,
+2024-03-12,Northeast, New York,1393.21,39.2
+2024-03-13,Northeast, New York,1468.95,31.0
+2024-03-14,West,ca,1075.82,36.6
+2024-03-15,Midwest,il,1553.71,19.7
+2024-03-16,Midwest,IL,1267.79,38.8
+2024-03-17,Midwest,il,1161.04,28.1
+2024-03-18,Northeast,NY,,26.8
+2024-03-19,Southeast,fl,1256.15,42.2
+2024-03-20,Northeast,NY,1543.35,56.7
+2024-03-21,West,ca,1372.13,51.0
+2024-03-22,Midwest,il,1397.13,21.2
+2024-03-23,Northeast,NY,1507.42,28.1
+2024-03-24,Northeast,ny,1504.13,51.3
+2024-03-25,Northeast,ny,1552.74,28.2
+2024-03-26,Northeast, New York,1252.21,37.3
+2024-03-27,Midwest,IL,1073.72,46.6
+2024-03-28,Midwest,il,1509.53,28.4
+2024-03-29,West,ca,1554.75,41.3
+2024-03-30,Southeast,fl,1274.14,24.0
+2024-03-31,Northeast, New York,1701.48,32.8
+2024-04-01,Midwest,IL,1365.19,43.8
+2024-04-02,Midwest,IL,1783.83,
+2024-04-03,Southeast,Florida,1493.44,45.3
+2024-04-04,Midwest,IL,1309.81,
+2024-04-05,Southeast,FL,1189.17,46.6
+2024-04-06,Southeast,Florida,1095.03,42.7
+2024-04-07,Southeast,FL,1370.02,56.4
+2024-04-08,Northeast,New York,1529.55,41.5
+2024-04-09,Northeast,NY,1433.16,34.8
+2024-04-10,Northeast,ny,1553.01,41.5
+2024-04-11,Midwest,IL,1191.27,46.5
+2024-04-12,Northeast,New York,1910.07,40.6
+2024-04-13,Southeast,Florida,1492.75,40.5
+2024-04-14,West,California,1362.8,31.6
+2024-04-15,Northeast,ny,1889.49,
+2024-04-16,Southeast,Florida,1382.61,23.2
+2024-04-17,Midwest,il,1245.31,61.0
+2024-04-18,Northeast,ny,1906.47,25.1
+2024-04-19,Northeast,ny,1762.34,31.7
+2024-04-20,Northeast,ny,1529.41,31.4
+2024-04-21,Northeast,NY,1659.95,50.7
+2024-04-22,West,CA,1260.66,36.5
+2024-04-23,West,California,1188.08,55.0
+2024-04-24,Midwest,IL,1537.93,31.9
+2024-04-25,West,CA,1688.91,43.3
+2024-04-26,West,California,1196.21,30.0
+2024-04-27,Northeast,New York,1793.95,65.7
+2024-04-28,West,California,1315.4,25.7
+2024-04-29,Southeast,FL,1343.43,43.7
+2024-04-30,West,CA,1331.14,47.6
+2024-05-01,West,California,1293.9,45.0
+2024-05-02,Northeast, New York,1734.28,37.8
+2024-05-03,Northeast, New York,1605.86,38.4
+2024-05-04,Northeast,ny,1774.57,40.5
+2024-05-05,Southeast,Florida,1429.96,38.2
+2024-05-06,West,ca,1405.16,51.6
+2024-05-07,West,ca,1308.37,66.5
+2024-05-08,Northeast,New York,1661.48,33.3
+2024-05-09,Southeast,Florida,,23.6
+2024-05-10,Southeast,Florida,1530.14,38.9
+2024-05-11,Northeast,NY,1611.87,71.0
+2024-05-12,Northeast,ny,1776.9,30.4
+2024-05-13,Northeast, New York,1878.21,59.7
+2024-05-14,West,CA,1218.59,60.1
+2024-05-15,Northeast,NY,1854.0,33.4
+2024-05-16,Southeast,Florida,1376.61,46.8
+2024-05-17,Midwest,il,1565.09,59.5
+2024-05-18,Southeast,FL,1368.51,35.5
+2024-05-19,West,California,1215.77,37.6
+2024-05-20,West,ca,1245.87,33.0
+2024-05-21,Northeast,New York,1800.71,27.8
+2024-05-22,Southeast,FL,1535.96,32.2
+2024-05-23,Northeast,NY,1664.85,25.3
+2024-05-24,Northeast,New York,1899.79,40.4
+2024-05-25,Northeast,New York,1558.27,30.8
+2024-05-26,Midwest,IL,1501.09,42.8
+2024-05-27,Southeast,fl,1332.85,21.3
+2024-05-28,Northeast, New York,1720.22,44.0
+2024-05-29,Northeast,ny,1828.61,50.0
+2024-05-30,West,California,1395.94,
+2024-05-31,Northeast,ny,1770.82,44.5
+2024-06-01,Northeast,NY,1982.94,54.7
+2024-06-02,Southeast,Florida,1448.97,25.5
+2024-06-03,West,CA,1664.35,60.1
+2024-06-04,Northeast,NY,1673.04,45.0
+2024-06-05,Midwest,il,1625.47,31.5
+2024-06-06,Midwest,il,1765.74,39.3
+2024-06-07,Northeast,ny,1482.25,46.7
+2024-06-08,Midwest,IL,1436.97,40.9
+2024-06-09,Southeast,Florida,1646.56,46.5
+2024-06-10,Midwest,il,1533.04,29.0
+2024-06-11,Midwest,il,1622.67,42.0
+2024-06-12,Southeast,fl,1479.9,23.0
+2024-06-13,Northeast,NY,1886.99,38.7
+2024-06-14,West,CA,1554.15,29.2
+2024-06-15,Northeast,NY,2056.17,31.2
+2024-06-16,Northeast,NY,1922.66,54.8
+2024-06-17,Northeast, New York,1938.64,53.1
+2024-06-18,Southeast,Florida,1529.72,47.3
+2024-06-19,Midwest,IL,,26.9
+2024-06-20,Northeast,ny,1833.62,36.2
+2024-06-21,Southeast,fl,1661.17,54.6
+2024-06-22,Northeast, New York,"1,842.35",41.7
+2024-06-23,Midwest,IL,1652.47,67.8
+2024-06-24,Northeast,New York,2223.81,44.7
+2024-06-25,Midwest,IL,1746.67,42.3
+2024-06-26,Southeast,FL,1570.6,36.3
+2024-06-27,West,ca,1803.18,41.6
+2024-06-28,Northeast,New York,1865.29,38.2
+2024-06-29,Northeast, New York,1624.28,48.5
+2024-06-30,Northeast,ny,1782.29,51.5
+2024-07-01,West,California,"1,356.38",30.6
+2024-07-02,West,CA,,24.0
+2024-07-03,Northeast,ny,1946.76,18.0
+2024-07-04,Midwest,il,1898.97,46.1
+2024-07-05,West,California,1700.04,26.8
+2024-07-06,Southeast,FL,1621.63,18.0
+2024-07-07,Southeast,fl,1782.41,44.7
+2024-07-08,Northeast, New York,"1,629.83",
+2024-07-09,Northeast, New York,2000.34,39.9
+2024-07-10,West,CA,1784.13,50.1
+2024-07-11,West,ca,1450.21,41.0
+2024-07-12,Midwest,il,1847.06,38.8
+2024-07-13,Northeast,NY,,51.0
+2024-07-14,Northeast, New York,1920.21,36.5
+2024-07-15,Midwest,IL,1780.92,43.2
+2024-07-16,West,ca,2030.1,43.9
+2024-07-17,West,ca,1720.28,32.0
+2024-07-18,Midwest,IL,,51.9
+2024-07-19,Midwest,IL,1631.1,37.9
+2024-07-20,Northeast,ny,1876.02,30.9
+2024-07-21,Northeast, New York,2131.55,46.4
+2024-07-22,West,California,1582.09,29.2
+2024-07-23,Midwest,il,1724.73,40.3
+2024-07-24,Northeast,NY,1945.85,39.9
+2024-07-25,Northeast,NY,2092.85,53.0
+2024-07-26,Midwest,il,,45.7
+2024-07-27,Northeast,NY,2183.63,39.7
+2024-07-28,Northeast,ny,"1,955.00",
+2024-07-29,Southeast,fl,1694.52,56.7
+2024-07-30,Midwest,il,1591.69,46.7
+2024-07-31,Midwest,il,1675.36,40.1
+2024-08-01,Northeast,ny,2102.1,24.3
+2024-08-02,Midwest,IL,1862.55,27.2
+2024-08-03,Northeast,New York,1914.18,36.3
+2024-08-04,Northeast,ny,2186.44,32.7
+2024-08-05,Midwest,il,1962.85,37.8
+2024-08-06,Midwest,IL,1825.02,40.7
+2024-08-07,West,CA,2048.02,46.4
+2024-08-08,Midwest,IL,1653.93,39.2
+2024-08-09,Southeast,FL,1586.8,45.8
+2024-08-10,Northeast, New York,1810.19,40.8
+2024-08-11,Southeast,fl,2004.91,18.0
+2024-08-12,Northeast,NY,2182.15,28.7
+2024-08-13,Northeast, New York,2079.16,38.3
+2024-08-14,West,California,1833.0,25.5
+2024-08-15,Southeast,fl,1625.68,47.2
+2024-08-16,West,California,2164.86,58.4
+2024-08-17,Midwest,il,1820.88,160.0
+2024-08-18,Midwest,IL,1821.41,37.4
+2024-08-19,Southeast,FL,1917.36,57.9
+2024-08-20,Southeast,FL,1884.15,41.8
+2024-08-21,Southeast,fl,1849.08,36.0
+2024-08-22,Northeast, New York,2000.43,32.6
+2024-08-23,Midwest,IL,1893.22,36.4
+2024-08-24,Northeast, New York,2408.3,35.3
+2024-08-25,Northeast,ny,2331.31,42.0
+2024-08-26,Midwest,il,2071.98,41.9
+2024-08-27,Northeast, New York,"2,059.82",40.0
+2024-08-28,West,CA,1691.56,45.2
+2024-08-29,West,ca,1824.63,54.3
+2024-08-30,West,ca,1855.36,51.4
+2024-08-31,Southeast,FL,,22.2
+2024-09-01,Northeast,ny,1900.13,18.0
+2024-09-02,West,CA,2086.93,51.2
+2024-09-03,Southeast,FL,1837.3,23.6
+2024-09-04,West,CA,"1,800.47",37.3
+2024-09-05,West,CA,1716.18,26.0
+2024-09-06,West,ca,1623.27,18.4
+2024-09-07,Northeast,NY,2298.48,46.5
+2024-09-08,Southeast,FL,1889.5,49.1
+2024-09-09,West,ca,1688.51,33.1
+2024-09-10,Northeast,ny,1991.24,18.0
+2024-09-11,Northeast,New York,"2,138.63",33.4
+2024-09-12,Southeast,fl,2142.85,44.7
+2024-09-13,West,ca,"1,857.06",22.3
+2024-09-14,Midwest,IL,1674.03,42.2
+2024-09-15,Southeast,fl,1866.14,150.0
+2024-09-16,Northeast,ny,2165.59,47.0
+2024-09-17,Midwest,il,1505.47,41.4
+2024-09-18,West,ca,1905.36,28.3
+2024-09-19,Northeast,New York,"2,182.36",54.4
+2024-09-20,Southeast,fl,2024.93,38.1
+2024-09-21,West,ca,2201.34,39.7
+2024-09-22,Midwest,IL,,28.8
+2024-09-23,Midwest,il,1890.67,34.7
+2024-09-24,Midwest,IL,1768.52,200.0
+2024-09-25,Southeast,Florida,2324.0,37.9
+2024-09-26,Northeast,NY,"2,250.38",60.5
+2024-09-27,West,California,1947.09,23.5
+2024-09-28,West,California,"1,944.88",20.6
+2024-09-29,West,ca,1981.71,57.7
+2024-09-30,West,CA,,37.5
+2024-10-01,Southeast,fl,1872.95,32.0
+2024-10-02,Southeast,FL,,52.5
+2024-10-03,Midwest,IL,1961.09,32.7
+2024-10-04,Midwest,IL,1887.99,61.9
+2024-10-05,Midwest,il,1866.07,48.1
+2024-10-06,Midwest,IL,1992.46,34.1
+2024-10-07,West,ca,1941.75,65.9
+2024-10-08,Northeast, New York,2509.1,32.7
+2024-10-09,Southeast,fl,1589.35,48.9
+2024-10-10,Northeast, New York,2454.23,43.6
+2024-10-11,Southeast,fl,2180.91,55.6
+2024-10-12,Northeast, New York,1986.49,58.7
+2024-10-13,Southeast,fl,1949.6,40.4
+2024-10-14,Southeast,Florida,1948.78,31.0
+2024-10-15,Northeast,New York,2096.87,45.5
+2024-10-16,Southeast,Florida,1894.83,31.9
+2024-10-17,Northeast,New York,2148.41,64.2
+2024-10-18,Northeast,New York,2581.34,41.6
+2024-10-19,West,ca,2162.35,35.6
+2024-10-20,Southeast,fl,2216.23,42.2
+2024-10-21,Northeast,ny,2437.25,23.8
+2024-10-22,Southeast,fl,1863.14,28.3
+2024-10-23,Midwest,IL,1957.32,54.4
+2024-10-24,Northeast,New York,2412.91,32.1
+2024-10-25,Midwest,IL,"1,859.68",27.4
+2024-10-26,Northeast,NY,2453.45,46.4
+2024-10-27,Northeast, New York,"2,313.95",54.2
+2024-10-28,Southeast,fl,1997.28,48.6
+2024-10-29,Southeast,fl,2163.64,52.0
+2024-10-30,Midwest,IL,2127.14,30.9
+2024-10-31,Midwest,il,2009.86,22.9
+2024-11-01,West,ca,2241.4,58.0
+2024-11-02,Southeast,Florida,1908.84,36.1
+2024-11-03,Northeast, New York,2466.89,37.0
+2024-11-04,Midwest,IL,2166.97,55.9
+2024-11-05,Northeast,NY,2335.07,46.7
+2024-11-06,Southeast,FL,2133.92,45.5
+2024-11-07,Northeast,New York,2200.83,66.0
+2024-11-08,Northeast,ny,2530.6,32.3
+2024-11-09,West,California,2067.76,51.1
+2024-11-10,West,California,2020.59,40.7
+2024-11-11,Midwest,il,2259.85,43.2
+2024-11-12,Southeast,FL,,
+2024-11-13,Northeast, New York,"2,198.23",46.1
+2024-11-14,Northeast,NY,2179.51,46.5
+2024-11-15,Northeast,New York,2507.4,52.9
+2024-11-16,Southeast,FL,1927.94,35.6
+2024-11-17,Midwest,IL,2386.72,29.9
+2024-11-18,Midwest,il,1814.71,27.5
+2024-11-19,Northeast,New York,2684.97,18.0
+2024-11-20,West,ca,2165.65,64.7
+2024-11-21,Midwest,il,2122.99,26.8
+2024-11-22,Southeast,fl,2059.26,37.3
+2024-11-23,Midwest,IL,2204.37,36.7
+2024-11-24,Southeast,fl,2142.35,43.7
+2024-11-25,Northeast,NY,2617.0,49.8
+2024-11-26,Southeast,FL,2172.13,50.3
+2024-11-27,Midwest,IL,2181.05,33.0
+2024-11-28,Northeast,New York,,38.0
+2024-11-29,Northeast, New York,2456.96,43.4
+2024-11-30,Northeast,ny,2515.17,37.0
+2024-12-01,Northeast,New York,2215.97,
+2024-12-02,West,California,,45.9
+2024-12-03,Midwest,IL,2290.99,48.8
+2024-12-04,Southeast,FL,2208.63,48.0
+2024-12-05,Northeast,ny,2458.9,54.1
+2024-12-06,Southeast,Florida,2192.77,42.2
+2024-12-07,Southeast,Florida,2245.64,24.4
+2024-12-08,Northeast,NY,2416.04,44.8
+2024-12-09,Southeast,Florida,2083.75,32.2
+2024-12-10,Southeast,FL,"2,233.38",33.7
+2024-12-11,Midwest,il,,47.0
+2024-12-12,Midwest,IL,2272.24,54.9
+2024-12-13,Northeast,New York,2259.11,40.3
+2024-12-14,Southeast,fl,"2,372.37",43.7
+2024-12-15,Midwest,IL,2292.39,
+2024-12-16,Southeast,FL,2263.4,42.9
+2024-12-17,West,ca,,71.2
+2024-12-18,Midwest,il,2481.82,46.8
+2024-12-19,Northeast, New York,2687.66,18.9
+2024-12-20,Northeast, New York,"2,262.87",49.0
+2024-12-21,Midwest,il,2050.56,
+2024-12-22,Northeast,NY,,55.5
+2024-12-23,Southeast,Florida,2253.41,48.1
+2024-12-24,West,CA,2330.65,38.3
+2024-12-25,Southeast,fl,2147.64,25.3
+2024-12-26,Southeast,FL,2288.02,37.5
+2024-12-27,Midwest,il,2150.19,29.8
+2024-12-28,Southeast,fl,2175.27,33.0
+2024-12-29,Southeast,Florida,"2,059.50",47.1
+2024-12-30,West,ca,2135.52,60.0
+2024-12-31,Southeast,fl,2074.75,44.7
+2025-01-01,West,California,2134.62,25.6
+2025-01-02,West,ca,2442.55,45.3
+2025-01-03,Northeast,New York,2445.59,54.4
+2025-01-04,Northeast,New York,2986.36,32.7
+2025-01-05,Northeast,ny,2669.0,38.4
+2025-01-06,Northeast,ny,2626.23,40.2
+2025-01-07,Northeast,NY,2473.25,30.6
+2025-01-08,Midwest,il,2410.55,47.8
+2025-01-09,Northeast,New York,2522.65,38.5
+2025-01-10,Northeast,NY,2630.8,45.0
+2025-01-11,West,ca,2700.01,29.4
+2025-01-12,Northeast, New York,2605.09,34.8
+2025-01-13,West,CA,2495.39,48.7
+2025-01-14,Northeast,New York,2521.02,35.5
+2025-01-15,Northeast,NY,2624.75,60.7
+2025-01-16,Midwest,IL,2599.12,35.2
+2025-01-17,Midwest,il,2242.95,42.7
+2025-01-18,West,ca,2612.37,51.2
+2025-01-19,Midwest,IL,2450.16,23.0
+2025-01-20,West,ca,2263.13,18.9
+2025-01-21,Northeast, New York,2745.86,21.7
+2025-01-22,Northeast,ny,2800.38,55.2
+2025-01-23,Midwest,il,2451.27,33.4
+2025-01-24,West,ca,2125.97,70.7
+2025-01-25,West,California,2255.93,33.2
+2025-01-26,Southeast,FL,2331.37,42.2
+2025-01-27,Southeast,FL,"2,360.83",58.5
+2025-01-28,Midwest,il,2468.6,64.1
+2025-01-29,Northeast,NY,2705.66,64.7
+2025-01-30,West,CA,2182.2,54.5
+2025-01-31,West,ca,2443.03,52.3
+2025-02-01,Southeast,fl,2481.09,47.1
+2025-02-02,Midwest,il,2476.97,49.3
+2025-02-03,Midwest,IL,"2,558.62",33.4
+2025-02-04,Northeast,New York,2825.09,30.2
+2025-02-05,West,ca,2472.38,40.0
+2025-02-06,Southeast,Florida,2396.48,38.0
+2025-02-07,West,CA,2161.36,34.6
+2025-02-08,Northeast, New York,2778.44,48.4
+2025-02-09,West,ca,2448.65,51.5
+2025-02-10,Southeast,Florida,2461.74,41.1
+2025-02-11,Northeast,ny,2532.99,57.7
+2025-02-12,West,CA,2265.84,26.3
+2025-02-13,Northeast,New York,"2,889.47",37.7
+2025-02-14,Northeast,NY,2729.07,31.4
+2025-02-15,West,CA,2540.73,18.0
+2025-02-16,West,ca,2446.25,39.0
+2025-02-17,Southeast,Florida,2449.96,38.5
+2025-02-18,Midwest,IL,2589.74,58.2
+2025-02-19,Southeast,FL,2375.09,47.6
+2025-02-20,Northeast,New York,2770.42,27.7
+2025-02-21,Northeast,NY,"2,690.16",62.2
+2025-02-22,Midwest,il,2397.83,54.7
+2025-02-23,Midwest,il,2420.12,47.0
+2025-02-24,Midwest,il,2503.32,37.3
+2025-02-25,Midwest,il,2401.69,28.5
+2025-02-26,Northeast,NY,2965.36,35.5
+2025-02-27,Southeast,Florida,2346.31,53.1
+2025-02-28,Northeast,New York,2755.97,62.6
+2025-03-01,Southeast,Florida,2421.54,58.5
+2025-03-02,Southeast,Florida,2708.05,34.1
+2025-03-03,West,ca,2523.98,26.6
+2025-03-04,Southeast,Florida,2652.78,41.7
+2025-03-05,Northeast,ny,2578.67,18.8
+2025-03-06,Northeast,ny,2845.06,43.9
+2025-03-07,Midwest,il,2641.94,38.2
+2025-03-08,Midwest,il,,34.4
+2025-03-09,Northeast,NY,2975.32,20.9
+2025-03-10,Northeast,ny,2741.41,46.2
+2025-03-11,Midwest,il,2733.9,33.6
+2025-03-12,Northeast,ny,3170.83,26.0
+2025-03-13,West,CA,2475.07,18.0
+2025-03-14,Midwest,IL,2466.17,39.7
+2025-03-15,Northeast,NY,3054.51,61.3
+2025-03-16,Northeast, New York,3076.94,59.9
+2025-03-17,West,California,2465.07,
+2025-03-18,Southeast,FL,2483.97,32.8
+2025-03-19,Southeast,FL,2508.23,45.6
+2025-03-20,West,ca,2352.33,28.0
+2025-03-21,West,CA,2419.7,43.6
+2025-03-22,West,California,2410.38,49.2
+2025-03-23,Midwest,IL,2449.33,54.7
+2025-03-24,Southeast,Florida,2562.8,38.8
+2025-03-25,Northeast,NY,2906.63,37.6
+2025-03-26,Midwest,il,2807.58,29.5
+2025-03-27,Southeast,FL,2428.75,30.1
+2025-03-28,Southeast,FL,2729.65,
+2025-03-29,West,CA,2553.4,44.4
+2025-03-30,Northeast, New York,2881.58,51.0
+2025-03-31,Southeast,Florida,2693.72,30.4
+2025-04-01,Northeast,New York,2727.59,57.9
+2025-04-02,Southeast,fl,,36.7
+2025-04-03,Northeast, New York,2927.97,39.7
+2025-04-04,Northeast,New York,2980.37,31.0
+2025-04-05,Northeast,NY,2953.38,18.0
+2025-04-06,Midwest,il,2981.8,50.6
+2025-04-07,Midwest,il,2521.34,48.8
+2025-04-08,Southeast,fl,2540.85,36.6
+2025-04-09,West,ca,2530.53,40.8
+2025-04-10,Southeast,FL,"2,544.18",46.2
+2025-04-11,Northeast,New York,2835.39,21.2
+2025-04-12,West,CA,2812.85,33.7
+2025-04-13,Northeast, New York,3151.08,49.5
+2025-04-14,West,ca,2555.89,24.9
+2025-04-15,Northeast,NY,2820.15,43.5
+2025-04-16,West,CA,2719.21,23.7
+2025-04-17,Northeast,New York,2869.17,45.6
+2025-04-18,West,California,2750.44,39.6
+2025-04-19,Southeast,fl,2689.44,20.6
+2025-04-20,West,CA,2435.14,54.0
+2025-04-21,Northeast,NY,3198.13,31.2
+2025-04-22,Southeast,Florida,2938.88,30.3
+2025-04-23,West,CA,2581.08,42.4
+2025-04-24,Southeast,FL,2618.34,53.8
+2025-04-25,Midwest,IL,2722.88,27.8
+2025-04-26,Midwest,IL,2733.67,40.7
+2025-04-27,Southeast,fl,2785.78,45.1
+2025-04-28,Midwest,il,2992.03,48.3
+2025-04-29,Southeast,fl,2667.46,42.1
+2025-04-30,West,CA,"2,577.76",35.6
+2025-05-01,Northeast,ny,2794.1,30.1
+2025-05-02,Northeast, New York,2894.86,41.0
+2025-05-03,West,California,2703.03,27.1
+2025-05-04,West,California,2980.68,18.0
+2025-05-05,Southeast,fl,2637.36,45.2
+2025-05-06,Midwest,il,2752.07,50.8
+2025-05-07,Northeast,NY,3019.54,18.0
+2025-05-08,Northeast,ny,3203.76,27.9
+2025-05-09,Southeast,FL,3108.04,47.4
+2025-05-10,Southeast,FL,2652.87,64.7
+2025-05-11,Southeast,Florida,2662.58,40.2
+2025-05-12,Northeast,New York,3196.12,31.3
+2025-05-13,West,California,2845.28,37.8
+2025-05-14,West,California,3023.51,56.5
+2024-10-31,Midwest,il,2009.86,22.9
+2024-12-06,Southeast,Florida,2192.77,42.2
+2024-02-17,Southeast,fl,1272.13,29.8
+2024-03-08,West,CA,1310.11,50.2
+2025-04-24,Southeast,FL,2618.34,53.8
+2025-04-30,West,CA,,35.6
+2024-11-06,Southeast,FL,2133.92,45.5
+2024-02-01,Northeast,ny,1425.85,150.0
+2024-09-06,West,ca,1623.27,18.4
+2024-03-31,Northeast, New York,1701.48,32.8
+2024-11-18,Midwest,il,1814.71,27.5
+2024-06-17,Northeast, New York,1938.64,53.1
+2024-04-29,Southeast,FL,1343.43,43.7
+2024-03-07,Northeast,ny,1383.14,47.1
+2024-11-01,West,ca,2241.4,58.0
+2024-07-08,Northeast, New York,1629.83,69.9
+2025-03-10,Northeast,ny,2741.41,46.2
+2024-10-16,Southeast,Florida,,31.9
+2024-05-22,Southeast,FL,1535.96,32.2
+2024-05-26,Midwest,IL,,42.8

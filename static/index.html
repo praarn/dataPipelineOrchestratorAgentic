@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pipeline Orchestrator — Data Ingestion, Cleaning &amp; Analysis</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ======================= TOP BAR ======================= -->
+  <header class="topbar">
+    <div class="topbar-brand">
+      <svg class="brand-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="6" cy="14" r="3.2" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="6" r="3.2" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="22" cy="22" r="3.2" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M9 13.2L18.5 7.4M9 14.8L18.5 20.6" stroke="currentColor" stroke-width="1.6"/>
+      </svg>
+      <div>
+        <div class="brand-title">Pipeline Orchestrator</div>
+        <div class="brand-subtitle">Ingest &middot; Clean &middot; Analyze &middot; Visualize &middot; Report</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="session-chip" id="sessionChip" title="Session ID">
+        <span class="dot" id="sessionDot"></span>
+        <span id="sessionLabel">connecting&hellip;</span>
+      </div>
+      <button class="btn btn-ghost btn-sm" id="startOverBtn" type="button">Start over</button>
+    </div>
+  </header>
+
+  <!-- ======================= PIPELINE CONDUIT ======================= -->
+  <nav class="conduit" id="conduit" aria-label="Pipeline stages">
+    <svg class="conduit-trace" id="conduitTrace" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="80" y1="20" x2="920" y2="20" class="trace-base"/>
+      <line x1="80" y1="20" x2="920" y2="20" class="trace-progress" id="traceProgress"/>
+    </svg>
+    <div class="conduit-nodes" id="conduitNodes"><!-- injected --></div>
+  </nav>
+
+  <!-- ======================= MAIN WORKSPACE ======================= -->
+  <main class="workspace" id="workspace">
+    <!-- stage panels injected by app.js -->
+  </main>
+
+  <footer class="app-footer">
+    <span>Every transformation is logged. Nothing changes silently.</span>
+  </footer>
+</div>
+
+<!-- toast host -->
+<div class="toast-host" id="toastHost" aria-live="polite"></div>
+
+<!-- reusable templates -->
+<template id="tpl-ingest">
+  <section class="panel" data-panel="ingest">
+    <div class="panel-head">
+      <h2>01 &middot; Ingest</h2>
+      <p>Load a CSV, TSV, JSON, or Excel file. The Ingestion Agent establishes schema and quality facts before anything else touches your data.</p>
+    </div>
+
+    <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Upload data file">
+      <input type="file" id="fileInput" accept=".csv,.tsv,.json,.xlsx,.xls" hidden />
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 16V4M12 4L7 9M12 4l5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <div class="dropzone-title">Drop a file, or click to browse</div>
+      <div class="dropzone-sub">.csv &middot; .tsv &middot; .json &middot; .xlsx &middot; .xls &middot; up to 60&nbsp;MB</div>
+    </div>
+
+    <div class="dropzone-alt">
+      <span class="hr-label">or</span>
+      <button class="btn btn-secondary" id="useSampleBtn" type="button">Use the sample dataset — messy_sales_data.csv</button>
+    </div>
+
+    <div id="ingestResult"></div>
+  </section>
+</template>
+
+<template id="tpl-clean">
+  <section class="panel" data-panel="clean">
+    <div class="panel-head">
+      <h2>02 &middot; Clean</h2>
+      <p>The Cleaning Agent proposes fixes — nothing is applied until you approve it. <strong class="c-cyan">Safe</strong> actions are pre-approved; <strong class="c-amber">review</strong> actions need your decision.</p>
+    </div>
+    <div id="cleanBody"></div>
+  </section>
+</template>
+
+<template id="tpl-analyze">
+  <section class="panel" data-panel="analyze">
+    <div class="panel-head">
+      <h2>03 &middot; Analyze</h2>
+      <p>Real statistical tests (t-test, ANOVA, correlation, trend regression) rank what's actually significant in your cleaned data.</p>
+    </div>
+    <div id="analyzeBody"></div>
+  </section>
+</template>
+
+<template id="tpl-visualize">
+  <section class="panel" data-panel="visualize">
+    <div class="panel-head">
+      <h2>04 &middot; Visualize</h2>
+      <p>Charts are generated only where the data supports one — findings with no visible pattern are stated plainly instead.</p>
+    </div>
+    <div id="vizBody"></div>
+  </section>
+</template>
+
+<template id="tpl-report">
+  <section class="panel" data-panel="report">
+    <div class="panel-head">
+      <h2>05 &middot; Report</h2>
+      <p>A narrative document stitching every stage together, with the full cleaning log surfaced as methodology.</p>
+    </div>
+    <div id="reportBody"></div>
+  </section>
+</template>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
